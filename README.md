@@ -23,7 +23,7 @@ This API provides full **CRUD** (Create, Read, Update, Delete) functionality for
 
 * **[Node.js](https://nodejs.org/)** - The runtime environment.
 * **[Express.js](https://expressjs.com/)** - The web framework for building the API.
-* **[Postman](https://www.postman.com/) / [Insomnia](https://insomnia.rest/)** - Used for testing the API endpoints.
+* **[Postman](https://www.postman.com/) / [Thunder Client]** - Used for testing the API endpoints.
 * *(Add any others you used, e.g., "Nodemon" for development, or "MongoDB" if you added a database)*
 
 ---
@@ -40,7 +40,7 @@ You must have [Node.js](https://nodejs.org/en/download/) (which includes npm) in
 
 1.  **Clone the repository:**
     ```sh
-    git clone [https://github.com/](https://github.com/)[your-username]/My-Contacts.git
+    git clone https://github.com/Athulmathew01/My-Contacts.git
     ```
 
 2.  **Navigate to the project directory:**
@@ -65,3 +65,8 @@ Run the server with this command:
 
 ```sh
 npm start
+```
+For local development
+```sh
+npm i -D nodemon
+npm run dev
